@@ -1,0 +1,21 @@
+{
+  "paper_section": "5.2",
+  "methods": [
+    "Proposed",
+    "LR-NM",
+    "NS-B"
+  ],
+  "dt_seconds": 0.01,
+  "nominal_reference_velocity_mps": 0.1,
+  "state": {
+    "velocity_lower_bound": -0.15,
+    "velocity_upper_bound": 0.58,
+    "initial_parameter": [
+      0.0,
+      0.0
+    ],
+    "initial_disturbance_estimate": 0.08
+  },
+  "derating_enabled": false,
+  "compound_disturbances_enabled": false
+}

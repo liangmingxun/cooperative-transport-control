@@ -1,0 +1,23 @@
+{
+  "paper_section": "5.4",
+  "disturbance": {
+    "minimum_effectiveness": 0.85,
+    "longitudinal_amplitude": 0.02,
+    "longitudinal_frequency": 1.0,
+    "longitudinal_phase": 0.0,
+    "yaw_amplitude": 0.2625,
+    "yaw_frequency": 1.0,
+    "yaw_phase": 1.5707963267948966,
+    "zone_start": 2.0,
+    "zone_end": 2.8,
+    "ramp_in_distance": 0.05,
+    "ramp_out_distance": 0.05,
+    "severity_scale": [
+      1.0,
+      1.15,
+      0.85
+    ],
+    "disturbance_model_version": "candidate_B_v2_spatial_composite",
+    "freeze_id": "candidate_B_v2_spatial_gradient15_rho0p85_av0p020_aw0p2625"
+  }
+}

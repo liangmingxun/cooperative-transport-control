@@ -1,0 +1,104 @@
+{
+  "tracker": {
+    "longitudinal_gain": 1.0,
+    "lateral_gain": 2.0,
+    "heading_gain": 2.0,
+    "longitudinal_gain_per_robot": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lateral_gain_per_robot": [
+      4.8,
+      3.4,
+      4.0
+    ],
+    "heading_gain_per_robot": [
+      3.5,
+      3.0,
+      3.0
+    ],
+    "angular_feedforward_scale_positive": [
+      0.78,
+      0.780810219,
+      0.850009371
+    ],
+    "angular_feedforward_scale_negative": [
+      0.94,
+      0.951221879,
+      0.94
+    ],
+    "formation_longitudinal_gain": 0.25,
+    "formation_lateral_gain": 0.85,
+    "formation_heading_gain": 0.7,
+    "curvature_preview_seconds_positive": [
+      0.05,
+      0.0,
+      0.05
+    ],
+    "curvature_preview_seconds_negative": [
+      0.05,
+      0.0,
+      0.05
+    ],
+    "chassis_reference_samples": 10001,
+    "wheel_separation": [
+      0.135484339,
+      0.139284482,
+      0.136802843
+    ],
+    "base_to_support": [
+      {
+        "x": -0.01783,
+        "y": 0.0
+      },
+      {
+        "x": 0.09908,
+        "y": 0.0
+      },
+      {
+        "x": 0.09908,
+        "y": 0.0
+      }
+    ]
+  },
+  "risk": {
+    "capability_reserve": 0.005,
+    "capability_safe_margin": 0.01,
+    "input_safe_margin": 0.4,
+    "wheel_safe_margin": 0.01,
+    "position_limit": 0.12,
+    "position_safe_margin": 0.06,
+    "require_software_watchdog": false,
+    "maximum_watchdog_age": 0.25
+  },
+  "capability_reserve": {
+    "body_linear_velocity": 0.0,
+    "body_angular_velocity": 0.0,
+    "wheel_linear_velocity": 0.0,
+    "path_acceleration": 0.0,
+    "path_deceleration": 0.0
+  },
+  "distributed_initial": {
+    "position": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "velocity": [
+      0.1,
+      0.1,
+      0.1
+    ],
+    "auxiliary": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "leader": {
+    "initial_position": 0.0,
+    "velocity": 0.1,
+    "acceleration": 0.0
+  }
+}

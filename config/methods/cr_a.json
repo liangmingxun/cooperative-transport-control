@@ -1,0 +1,70 @@
+{
+  "upper": {
+    "schema_version": 1,
+    "mode": "M2a",
+    "update_rate": 25.0,
+    "controller_ticks_per_update": 4,
+    "capability_policy": "log_only_never_used_by_control",
+    "agents": {
+      "physical_lower": [
+        -0.03,
+        -0.03,
+        -0.03
+      ],
+      "physical_upper": [
+        0.125,
+        0.125,
+        0.125
+      ],
+      "physical_margin_lower": [
+        0.005,
+        0.005,
+        0.005
+      ],
+      "physical_margin_upper": [
+        0.005,
+        0.005,
+        0.005
+      ],
+      "zero_margin": [
+        0.005,
+        0.005,
+        0.005
+      ],
+      "minimum_width": [
+        0.065,
+        0.065,
+        0.065
+      ],
+      "inner_margin": [
+        0.005,
+        0.005,
+        0.005
+      ],
+      "initial_lower": [
+        -0.015,
+        -0.015,
+        -0.015
+      ],
+      "initial_upper": [
+        0.115,
+        0.115,
+        0.115
+      ],
+      "nominal_lower": [
+        -0.015,
+        -0.015,
+        -0.015
+      ],
+      "nominal_upper": [
+        0.115,
+        0.115,
+        0.115
+      ]
+    },
+    "hard_capability_envelope": {
+      "enabled": false
+    }
+  },
+  "lower_controller": "R1"
+}

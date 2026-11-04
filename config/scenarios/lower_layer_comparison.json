@@ -1,0 +1,14 @@
+{
+  "paper_section": "5.5",
+  "dt_seconds": 0.01,
+  "nominal_reference_velocity_mps": 0.1,
+  "state": {
+    "velocity_lower_bound": -0.05,
+    "velocity_upper_bound": 0.14,
+    "initial_parameter": [
+      0.0,
+      0.0
+    ],
+    "initial_disturbance_estimate": 0.08
+  }
+}

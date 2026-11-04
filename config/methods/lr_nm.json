@@ -1,0 +1,62 @@
+{
+  "cooperative": {
+    "schema_version": 1,
+    "fixed_velocity_bounds": true,
+    "capability_policy": "log_only_never_used_by_control",
+    "alpha": 0.15,
+    "beta": 0.52,
+    "l0": 0.9,
+    "l1": 1.2,
+    "l2": 2.25,
+    "l3": 1.1,
+    "h": [
+      0.006,
+      0.006,
+      0.006
+    ],
+    "k1": [
+      1.25,
+      1.25,
+      1.25
+    ],
+    "k2": [
+      2.75,
+      2.75,
+      2.75
+    ],
+    "generator_guard": 2e-05,
+    "mapping_guard": 2e-05,
+    "generator_substeps": 2,
+    "auxiliary_boundary_layer": 0.0
+  },
+  "shared_reference_lower": {
+    "schema_version": 1,
+    "mode": "PaperNM",
+    "adaptation_enabled": false,
+    "disturbance_compensation_enabled": false,
+    "update_rate": 100.0,
+    "paper_nm": {
+      "k1": 1.25,
+      "k2": 2.75
+    },
+    "adaptation_gain": [
+      0.0,
+      0.0
+    ],
+    "disturbance_adaptation_gain": 0.0,
+    "parameter_leakage": 0.0,
+    "disturbance_leakage": 0.0,
+    "robust_boundary_layer": 0.055,
+    "parameter_min": [
+      0.0,
+      0.0
+    ],
+    "parameter_max": [
+      0.0,
+      0.0
+    ],
+    "disturbance_estimate_max": 0.0,
+    "constraint_margin": 2e-05,
+    "sustained_saturation_seconds": 0.5
+  }
+}

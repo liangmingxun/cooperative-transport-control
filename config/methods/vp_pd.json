@@ -1,0 +1,34 @@
+{
+  "lower": {
+    "schema_version": 1,
+    "mode": "PDPenalty",
+    "adaptation_enabled": false,
+    "disturbance_compensation_enabled": false,
+    "update_rate": 100.0,
+    "pd_penalty": {
+      "kp1": 4.0,
+      "kp2": 2.0,
+      "kpd": 0.012,
+      "denominator_guard": 2e-05
+    },
+    "adaptation_gain": [
+      0.0,
+      0.0
+    ],
+    "disturbance_adaptation_gain": 0.0,
+    "parameter_leakage": 0.0,
+    "disturbance_leakage": 0.0,
+    "robust_boundary_layer": 0.055,
+    "parameter_min": [
+      0.0,
+      0.0
+    ],
+    "parameter_max": [
+      0.0,
+      0.0
+    ],
+    "disturbance_estimate_max": 0.0,
+    "constraint_margin": 2e-05,
+    "sustained_saturation_seconds": 0.5
+  }
+}

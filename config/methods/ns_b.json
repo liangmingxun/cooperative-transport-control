@@ -1,0 +1,14 @@
+{
+  "method": "NS-B",
+  "motion": {
+    "load_path_speed": 0.1,
+    "target_progress": 5.17822971502571,
+    "startup_ramp_seconds": 2.5,
+    "startup_profile": "quintic",
+    "maximum_integration_step": 0.05
+  },
+  "command_limits": {
+    "maximum_wheel_linear_velocity": 0.15,
+    "minimum_wheel_command_scale": 0.7
+  }
+}

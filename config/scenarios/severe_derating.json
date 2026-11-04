@@ -1,0 +1,49 @@
+{
+  "paper_section": "5.3.2",
+  "nominal_wheel_rim_speed_mps": 0.16,
+  "nominal_wheel_acceleration_mps2": 1.0,
+  "nominal_wheel_deceleration_mps2": 2.0,
+  "displayed_ratios": {
+    "Proposed": 0.75,
+    "CR-A": 0.8,
+    "LR-NM": 0.8
+  },
+  "profiles": {
+    "0p75": {
+      "activation_progress": 1.5,
+      "restoration_progress": 3.0,
+      "target_speed_ratio_left": 0.75,
+      "target_speed_ratio_right": 0.75,
+      "target_acceleration_ratio_left": 0.7,
+      "target_acceleration_ratio_right": 0.7,
+      "target_deceleration_ratio_left": 0.7,
+      "target_deceleration_ratio_right": 0.7,
+      "ramp_down_time": 1.0,
+      "ramp_up_time": 1.0
+    },
+    "0p80": {
+      "activation_progress": 1.5,
+      "restoration_progress": 3.0,
+      "target_speed_ratio_left": 0.8,
+      "target_speed_ratio_right": 0.8,
+      "target_acceleration_ratio_left": 0.7,
+      "target_acceleration_ratio_right": 0.7,
+      "target_deceleration_ratio_left": 0.7,
+      "target_deceleration_ratio_right": 0.7,
+      "ramp_down_time": 1.0,
+      "ramp_up_time": 1.0
+    },
+    "0p85": {
+      "activation_progress": 1.5,
+      "restoration_progress": 3.0,
+      "target_speed_ratio_left": 0.85,
+      "target_speed_ratio_right": 0.85,
+      "target_acceleration_ratio_left": 0.7,
+      "target_acceleration_ratio_right": 0.7,
+      "target_deceleration_ratio_left": 0.7,
+      "target_deceleration_ratio_right": 0.7,
+      "ramp_down_time": 1.0,
+      "ramp_up_time": 1.0
+    }
+  }
+}

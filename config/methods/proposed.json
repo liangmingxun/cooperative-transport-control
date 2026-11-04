@@ -1,0 +1,134 @@
+{
+  "upper": {
+    "schema_version": 1,
+    "mode": "M1",
+    "update_rate": 25.0,
+    "controller_ticks_per_update": 4,
+    "agents": {
+      "physical_lower": [
+        -0.03,
+        -0.03,
+        -0.03
+      ],
+      "physical_upper": [
+        0.125,
+        0.125,
+        0.125
+      ],
+      "physical_margin_lower": [
+        0.005,
+        0.005,
+        0.005
+      ],
+      "physical_margin_upper": [
+        0.005,
+        0.005,
+        0.005
+      ],
+      "zero_margin": [
+        0.005,
+        0.005,
+        0.005
+      ],
+      "minimum_width": [
+        0.065,
+        0.065,
+        0.065
+      ],
+      "inner_margin": [
+        0.005,
+        0.005,
+        0.005
+      ],
+      "initial_lower": [
+        -0.015,
+        -0.015,
+        -0.015
+      ],
+      "initial_upper": [
+        0.115,
+        0.115,
+        0.115
+      ],
+      "nominal_lower": [
+        -0.015,
+        -0.015,
+        -0.015
+      ],
+      "nominal_upper": [
+        0.115,
+        0.115,
+        0.115
+      ],
+      "restore_gain_lower": [
+        0.55,
+        0.55,
+        0.55
+      ],
+      "restore_gain_upper": [
+        0.65,
+        0.65,
+        0.65
+      ],
+      "risk_gain_lower": [
+        0.036,
+        0.036,
+        0.036
+      ],
+      "risk_gain_upper": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "risk_scale": [
+        0.95,
+        0.95,
+        0.95
+      ],
+      "risk_decay": [
+        0.42,
+        0.42,
+        0.42
+      ]
+    },
+    "causality": {
+      "current_inputs": [
+        "reported_capability"
+      ],
+      "one_step_delayed_inputs": [
+        "channel_input_margin",
+        "wheel_margin",
+        "position_margin",
+        "failure_margin"
+      ]
+    }
+  },
+  "lower": {
+    "schema_version": 1,
+    "mode": "R1",
+    "adaptation_enabled": true,
+    "disturbance_compensation_enabled": true,
+    "update_rate": 100.0,
+    "composite_gain": 1.2,
+    "feedback_gain": 2.4,
+    "adaptation_gain": [
+      0.12,
+      0.12
+    ],
+    "disturbance_adaptation_gain": 1.0,
+    "parameter_leakage": 0.025,
+    "disturbance_leakage": 0.08,
+    "robust_boundary_layer": 0.055,
+    "parameter_min": [
+      -0.8,
+      -0.8
+    ],
+    "parameter_max": [
+      0.8,
+      0.8
+    ],
+    "disturbance_estimate_max": 0.55,
+    "constraint_margin": 2e-05,
+    "sustained_saturation_seconds": 0.5
+  }
+}
